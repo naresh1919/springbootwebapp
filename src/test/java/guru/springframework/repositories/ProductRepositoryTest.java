@@ -30,7 +30,7 @@ public class ProductRepositoryTest {
         product.setDescription("Spring Framework Guru Shirt");
         product.setPrice(new BigDecimal("18.95"));
         product.setProductId("1234");
-
+        // testing
         //save product, verify has ID value after save
         assertNull(product.getId()); //null before save
         productRepository.save(product);
